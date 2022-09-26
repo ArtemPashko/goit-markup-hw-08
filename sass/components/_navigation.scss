@@ -1,0 +1,33 @@
+.page-navigation {
+    display: flex;
+}
+
+.site-nav {
+    display: flex;
+    column-gap: 50px;
+
+    & .link.current {
+            color: var(--accent-color);
+        }
+}
+
+
+
+.aut-nav {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.aut-nav__icon-mail {
+    margin-right: 10px;
+}
+
+
+.aut-nav__mail {
+    margin-right: 50px;
+}
+
+.aut-nav__icon-phone {
+    margin-right: 10px;
+}

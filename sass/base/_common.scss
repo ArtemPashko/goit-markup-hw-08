@@ -1,0 +1,50 @@
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.page-header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    font-family: var(--primary-font);
+    color: var(--primary-text-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.list {
+    list-style: none;
+    text-decoration: none;
+}
+
+.link {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+.item {
+    list-style: none;
+}

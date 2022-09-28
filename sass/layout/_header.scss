@@ -6,6 +6,7 @@
 }
 
 .open-mobile-menu-btn{
+    line-height: 0;
     border: none;
     background-color: transparent;
     padding: 0;
@@ -14,6 +15,17 @@
 .open-mobile-menu-btn__icon{
     width: 40px;
     height: 40px;
+}
+
+.page-header-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-header{
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 // .site-nav__header {

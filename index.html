@@ -26,7 +26,7 @@
                     <li><a href="#" class="site-nav__header link">Контакти</a></li>
                 </ul>
             </nav>
-            <button type="button" class="open-mobile-menu-btn">
+            <button type="button" class="open-mobile-menu-btn" data-menu-open>
             <svg class="open-mobile-menu-btn__icon">
                 <use href="./images/sprite.svg#icon-burger"></use>
             </svg>
@@ -48,9 +48,9 @@
                 </li>
             </ul>
         </div>
-    <div class="mobile-menu">
+    <div class="mobile-menu" data-menu>
         <div class="conteiner mobile-menu__conteiner">
-            <button class="mobile-menu__close-btn">
+            <button class="mobile-menu__close-btn" data-menu-close>
                 <svg class="mobile-menu__close-icon">
                     <use href="./images/sprite.svg#icon-close-black"></use>
                 </svg>
@@ -95,7 +95,7 @@
     </header>
 
     <main>
-        <!-- <section class="section-hero">
+        <section class="section-hero">
             <div class="conteiner">
                 <h1 class="section-hero__title">
                     Ефективні рішення для вашого бізнесу
@@ -103,7 +103,7 @@
                 <button type="button" class="section-hero__button" data-modal-open>Замовити послугу</button>
             </div>
 
-        </section>
+        <!-- </section>
         <section class="section benefits">
             <div class="conteiner">
                 <h2 class="heading visually-hidden"> Наші особливості </h2>
@@ -147,9 +147,9 @@
                         <p class="benefits__text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                     </li>
                 </ul>
-            </div>
+            </div> -->
 
-        </section>
+        <!-- </section>
         <section class="about-section">
             <div class="conteiner">
                 <h2 class="heading about-heading">
@@ -171,8 +171,8 @@
                 </ul>
             </div>
 
-        </section>
-        <section class="section about-team">
+        </section> -->
+        <!-- <section class="section about-team">
             <div class="conteiner">
                 <h2 class="heading team-heading">
                     Наша команда
@@ -410,8 +410,8 @@
                     </li>
                 </ul>
             </div>
-        </section>
-        <section class="clients">
+        </section> -->
+        <!-- <section class="clients">
             <div class="conteiner">
                 <h2 class="heading team-heading">
                     Постійні кліенти
@@ -459,7 +459,9 @@
                             </svg>
                         </a>
                     </li>
-                </ul> -->
+                </ul>
+            
+        </section> -->
     </main>
 
     <footer>
@@ -579,8 +581,9 @@
                 <button type="submit" class="modal-form-submit">Відправити</button>
             </form>
         </div>
-    </div>
-    <script src="./js/modal.js"></script> -->
+    </div> -->
+    <script src="./js/menu.js"></script>
+    <!-- <script src="./js/modal.js"></script> -->
 </body>
 
 </html>

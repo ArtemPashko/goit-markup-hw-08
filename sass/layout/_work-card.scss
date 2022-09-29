@@ -17,3 +17,15 @@
     text-transform: uppercase;
     font-weight: 700;
 }
+
+@media screen and (max-width: 767px){
+    .not-phone-tab{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .not-phone-tab {
+        display: none;
+    }
+}

@@ -8,3 +8,9 @@
     padding: 40px;
     background-color: #FFFFFF;
 }
+
+@media screen and (max-width: 767px) {
+    .modal {
+        width: 450px;
+    }
+}

@@ -418,6 +418,9 @@ body {
     line-height: 47px;
     letter-spacing: 0.02em;
   }
+  .mobile-menu__nav-list-link.link.current {
+    color: var(--accent-color);
+  }
   .mobile-menu__contacts {
     margin-bottom: 64px;
   }
@@ -1078,6 +1081,10 @@ footer {
     flex-wrap: nowrap;
     text-align: left;
   }
+  .footer-container {
+    display: flex;
+    align-items: baseline;
+  }
   .footer-social-network {
     margin-right: 0;
     margin-left: 0;
@@ -1089,6 +1096,9 @@ footer {
     text-align: center;
     display: flex;
     gap: 12px;
+  }
+  .footer-modal-form-input {
+    width: 358px;
   }
 }
 .footer-modal-form-text {

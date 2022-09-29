@@ -183,6 +183,11 @@ footer {
         text-align: left;
     }
 
+    .footer-container{
+    display: flex;
+    align-items: baseline;
+    }
+
      .footer-social-network{
         margin-right: 0;
         margin-left: 0;
@@ -192,10 +197,12 @@ footer {
         margin-top: 0;
     }
 
-        .footer-modal-form{
+    .footer-modal-form{
         text-align: center;
         display: flex;
         gap: 12px;
     }
-
+    .footer-modal-form-input{
+    width: 358px;
+   }
 }

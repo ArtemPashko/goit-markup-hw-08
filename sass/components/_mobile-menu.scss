@@ -58,6 +58,9 @@
     letter-spacing: 0.02em;
 }
 
+.mobile-menu__nav-list-link.link.current {
+    color: var(--accent-color);
+}
 
 .mobile-menu__contacts{
     margin-bottom: 64px;

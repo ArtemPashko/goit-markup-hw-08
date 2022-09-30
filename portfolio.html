@@ -22,6 +22,11 @@
                 <li><a href="#" class="site-nav__header link">Контакти</a></li>
             </ul>
         </nav>
+        <button type="button" class="open-mobile-menu-btn" data-menu-open>
+            <svg class="open-mobile-menu-btn__icon">
+                <use href="./images/sprite.svg#icon-burger"></use>
+            </svg>
+        </button>
         <ul class="aut-nav list">
             <li class="aut-nav__mail">
                 <a href="mailto:info@devstudio.com" class="aut-nav__contacts link">
@@ -38,6 +43,50 @@
                 +38 096 111 11 11</a>
             </li>
         </ul>
+        </div>
+        <div class="mobile-menu" data-menu>
+            <div class="conteiner mobile-menu__conteiner">
+                <button class="mobile-menu__close-btn" data-menu-close>
+                    <svg class="mobile-menu__close-icon">
+                        <use href="./images/sprite.svg#icon-close-black"></use>
+                    </svg>
+                </button>
+                <ul class="mobile-menu__nav list">
+                    <nav class="mobile-menu__nav-list">
+                        <li class="mobile-menu__nav-list-item">
+                            <a href="./index.html" class="mobile-menu__nav-list-link link ">Студія</a>
+                        </li>
+                        <li class="mobile-menu__nav-list-item">
+                            <a href="./portfolio.html" class="mobile-menu__nav-list-link link current">Портфоліо</a>
+                        </li>
+                        <li class="mobile-menu__nav-list-item">
+                            <a href="" class="mobile-menu__nav-list-link link">Контакти</a>
+                        </li>
+                    </nav>
+                </ul>
+                <ul class="mobile-menu__contacts list">
+                    <li class="mobile-menu__contacts-list">
+                        <a href="tel:+380961111111" class="mobile-menu__contacts-tel link current">+38 096 111 11 11</a>
+                    </li>
+                    <li class="mobile-menu__contacts-list">
+                        <a href="mailto:info@devstudio.com" class="mobile-menu__contacts-link link">info@devstudio.com</a>
+                    </li>
+                </ul>
+                <ul class="mobile-menu__social list">
+                    <li class="mobile-menu__social-list">
+                        <a href="" class="mobile-menu__social-link link">Instagram</a>
+                    </li>
+                    <li class="mobile-menu__social-list">
+                        <a href="" class="mobile-menu__social-link link">Twitter</a>
+                    </li>
+                    <li class="mobile-menu__social-list">
+                        <a href="" class="mobile-menu__social-link link">Facebook</a>
+                    </li>
+                    <li class="mobile-menu__social-list">
+                        <a href="" class="mobile-menu__social-link link">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
         </div>
       </header>
       <main>
@@ -74,7 +123,7 @@
                                             <source srcset="./images/img-1-1x-tel.jpg 1x, ./images/img-1-2x-tel.jpg 2x" 
                                             media="(max-width: 767px)">
 
-                                            <img src="./images/img-1-1x-desktop.jpg" alt="приклад створенного веб-сайту" width="370">
+                                            <img src="./images/img-1-1x-desktop.jpg" alt="приклад створенного веб-сайту">
                                         </picture>
                                     
                                     <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -110,7 +159,7 @@
                                             <source srcset="./images/img-2-1x-tel.jpg 1x, ./images/img-2-2x-tel.jpg 2x" 
                                             media="(max-width: 767px)">
 
-                                    <img src="./images/img-2-1x-desktop.jpg" alt="приклад створенного постеру New Orlean vs Golden Star" width="370">
+                                    <img src="./images/img-2-1x-desktop.jpg" alt="приклад створенного постеру New Orlean vs Golden Star">
                                         </picture>
 
                                     <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -145,7 +194,7 @@
                                             <source srcset="./images/img-3-1x-tel.jpg 1x, ./images/img-3-2x-tel.jpg 2x" 
                                             media="(max-width: 767px)">
 
-                                            <img src="./images/img-3-1x-desktop.jpg" alt="приклад створенного додатку для ресторану" width="370">
+                                            <img src="./images/img-3-1x-desktop.jpg" alt="приклад створенного додатку для ресторану">
                                             </picture>
                                             <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                                                 відвідувачу отримати
@@ -179,7 +228,7 @@
                                             <source srcset="./images/img-4-1x-tel.jpg 1x, ./images/img-4-2x-tel.jpg 2x" 
                                             media="(max-width: 767px)">
 
-                                            <img src="./images/img-4-1x-desktop.jpg" alt="приклад створенного маркетингового проєкту" width="370">
+                                            <img src="./images/img-4-1x-desktop.jpg" alt="приклад створенного маркетингового проєкту">
                                             </picture>
                                             <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                                                 відвідувачу отримати
@@ -213,7 +262,7 @@
                                             <source srcset="./images/img-5-1x-tel.jpg 1x, ./images/img-5-2x-tel.jpg 2x" 
                                             media="(max-width: 767px)">
 
-                                            <img src="./images/img-5-1x-desktop.jpg" alt="приклад створенного додатку для виробницва коробок" width="370">
+                                            <img src="./images/img-5-1x-desktop.jpg" alt="приклад створенного додатку для виробницва коробок" >
                                             </picture>
                                             <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                                                 відвідувачу отримати
@@ -247,7 +296,7 @@
                                             <source srcset="./images/img-6-1x-tel.jpg 1x, ./images/img-6-2x-tel.jpg 2x" 
                                             media="(max-width: 767px)">
 
-                                            <img src="./images/img-6-1x-desktop.jpg" alt="приклад створенного веб-сайту" width="370">
+                                            <img src="./images/img-6-1x-desktop.jpg" alt="приклад створенного веб-сайту">
                                             </picture>
                                             <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                                                 відвідувачу отримати
@@ -281,7 +330,7 @@
                                             <source srcset="./images/img-7-1x-tel.jpg 1x, ./images/img-7-2x-tel.jpg 2x" 
                                             media="(max-width: 767px)">
 
-                                            <img src="./images/img-7-1x-desktop.jpg" alt="приклад створенного дизайну для видання" width="370">
+                                            <img src="./images/img-7-1x-desktop.jpg" alt="приклад створенного дизайну для видання">
                                             </picture>
                                             <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                                                 відвідувачу отримати
@@ -315,7 +364,7 @@
                                             <source srcset="./images/img-8-1x-tel.jpg 1x, ./images/img-8-2x-tel.jpg 2x" 
                                             media="(max-width: 767px)">
 
-                                            <img src="./images/img-8-1x-desktop.jpg" alt="приклад створенного маркетингового проєкту" width="370">
+                                            <img src="./images/img-8-1x-desktop.jpg" alt="приклад створенного маркетингового проєкту">
                                             </picture>
                                             <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                                                 відвідувачу отримати
@@ -349,7 +398,7 @@
                                             <source srcset="./images/img-9-1x-tel.jpg 1x, ./images/img-9-2x-tel.jpg 2x" 
                                             media="(max-width: 767px)">
 
-                                            <img src="./images/img-9-1x-tel.jpg" alt="приклад створенного додатку" width="370">
+                                            <img src="./images/img-9-1x-tel.jpg" alt="приклад створенного додатку">
                                             </picture>
                                             <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                                                 відвідувачу отримати
@@ -367,20 +416,22 @@
 
       </main>
     <footer>
-        <div class="footer-container conteiner">
-            <div>
+        <div class="footer footer-container conteiner">
+            <div class="footer-contacts">
                 <a href="./index.html" class="logo-footer"> Web<span class="logo-white">Studio</span> </a>
                 <address class="contacts-footer" id="contacts">
                     <ul class="item-footer">
                         <li> <a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank"
-                                rel="noopener noreferrer nofollow" class="address">м. Київ, пр-т Лесі Українки, 26</a> </li>
-                        <li class="address-footer"> <a href="mailto:info@devstudio.com" class="mail"> info@devstudio.com</a>
+                                rel="noopener noreferrer nofollow" class="address">м. Київ, пр-т Лесі Українки, 26</a>
                         </li>
-                        <li class="address-footer"> <a href="tel:+380961111111" class="phone"> +38 096 111 11 11 </a></li>
+                        <li class="address-footer"> <a href="mailto:info@devstudio.com" class="mail">
+                                info@devstudio.com</a> </li>
+                        <li class="address-footer"> <a href="tel:+380961111111" class="phone"> +38 096 111 11 11 </a>
+                        </li>
                     </ul>
                 </address>
             </div>
-            <div class=" footer-social-network">
+            <div class="footer-social-network">
                 <p class="footer-join">приєднуйтесь</p>
                 <ul class="footer-list list">
                     <li class="footer-list-item">
@@ -413,25 +464,24 @@
                     </li>
                 </ul>
             </div>
-                        <div class="footer-modal">
-                            <p class="footer-modal-form-text">
-                                Підпишіться на розсилку
-                            </p>
-                            <form class="footer-modal-form">
-                                <label class="footer-modal-form-field">
-                                    <input type="email" class="footer-modal-form-input" required
-                                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="E-mail" name="footer-mail">
-                                </label>
-                                <button type="submit" class="footer-modal-form-button">Підписатися
-                                    <svg aria-label="іконка відправки" class="footer-modal-form-icon">
-                                        <use href="./images/sprite.svg#icon-icon-send"></use>
-                                    </svg>
-                                </button>
-                            </form>
-                        </div>
+            <div class="footer-modal">
+                <p class="footer-modal-form-text">
+                    Підпишіться на розсилку
+                </p>
+                <form class="footer-modal-form">
+                    <label class="footer-modal-form-field">
+                        <input type="email" class="footer-modal-form-input" required
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="E-mail" name="footer-mail">
+                    </label>
+                    <button type="submit" class="footer-modal-form-button">Підписатися
+                        <svg aria-label="іконка відправки" class="footer-modal-form-icon">
+                            <use href="./images/sprite.svg#icon-icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
-    
-    
     </footer>
+    <script src="./js/menu.js"></script>
 </body>
 </html>

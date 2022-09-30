@@ -101,3 +101,19 @@
     color: #757575;
     margin-top: 4px;
 }
+
+@media screen and (max-width: 767px){
+    .item-button{
+        flex-wrap: wrap;
+        row-gap: 15px;
+        justify-content: left;
+    }
+
+    // .item-img{
+    //     flex-basis: calc((100% - 30px)/1);
+    // }
+}
+
+@media screen and (min-width: 768px){
+
+}
